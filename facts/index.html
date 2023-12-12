@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+  
+  <a href="#"><i class="fa fa-bar"></i></span></a>
+</div> 
+</body>
+</html>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+$(function(){
+$(".toggle").on("click", function(){
+if($(".menu").hasClass("active")){
+  $(".menu").removeClass("active");
+  $(this).find("a").html("<ion-icon name='menu-outline'></ion-icon");
+}else{
+$(".menu").addClass("active");
+$(this).find("a").html("<ion-icon name='close-outline'></ion-icon");
+}
+});
+});
+
+</script>
+   </body>
+   </html>
