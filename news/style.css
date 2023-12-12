@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    nav{
+    width: 100%;
+    display: flex;
+    background-color: blue;
+    padding: 10px 30px;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    z-index: 1;
+    top: 0;
+    position: fixed;
+    
+    }
+    .logo{
+    color: greenyellow;
+    
+    }
+    nav ul{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 27px;
+    }
+    nav ul li{
+    list-style-type: none;
+    }
+    nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+    
+    }
+    .menu-icon{
+    display: none;
+    }
+    .menu-icon i{
+    color: red;
+    font-size: 30px;
+    }
+    
+    .viss{
+      background-color: darkgrey;
+      justify-content: center;
+      display: flex;
+      max-width:2100px;
+      height:290px;
+      }
+      .viss-1{
+      width: 700px;
+      }
+      .viss-1 img{
+      width: 100%;
+      height: 220px;
+      margin-top: 60px;
+      
+      }
+
+
+
+
+
+
+    /* -------page---------- */
+   .pal{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-top: 10px;
+   }
+   .pal-1{
+   max-width: 800px;
+   margin: 5px;
+   position: relative;
+   margin-top: 5px;
+   }
+   .pal-1 img{
+   width: 100%;
+   height: 660px;
+   }
+   .pal-pal{
+   display: flex;
+   flex-direction: column;
+   }
+   .pal-2{
+   max-width: 730px;
+   width: 100%;
+   margin: 10px;
+   line-height: 1.6;
+   }
+   /* --------colour--------------- */
+    .h1-bell{
+    padding:0px 31px;
+    color: #c0392b;
+    }
+    .s-bell{
+    color: blue;
+    }
+    .s-cum{
+    color: red;
+    }
+    .h1-cum{
+    color: #3498db;
+    padding:0px 31px;
+    
+    }
+    .hr-hr{
+     color: gainsboro;
+     width: 95%;
+    }
+    .cup-cup{
+    color: peru;
+    padding:0px 31px;
+    }
+    .cup-2{
+    color: #8e44ad;
+    }
+    .h2-1{
+    color: #3498db;
+    }
+    .h3-1{
+    color: #c0392b;
+    }
+    .f1{
+    color: #f1c40f;
+    }
+    .f2{
+    color: #c0392b;
+    }
+    .v1{
+      color: #f1c40f;
+      }
+      .v2{
+      color: #c0392b;
+      }
+      .c1{
+        color: #f1c40f;
+        }
+        .c2{
+        color: #c0392b;
+        }
+        .z1{
+          color: #f1c40f;
+          }
+          .z2{
+          color: #c0392b;
+          }
+          .b1{
+            color: #f1c40f;
+            }
+            .b2{
+            color: #c0392b;
+            } 
+            .u1{
+              color: #f1c40f;
+              }
+              .u2{
+              color: #c0392b;
+              }  
+              .x1{
+              color: #c0392b;
+              } 
+              .x2{
+              color: #3498db;
+              }.y1{
+              text-align: center;
+              background-color: brown;
+              color: whitesmoke;
+              width: 99%;
+              margin-top:7px;
+              }
+              .a1{
+              color:yellow;
+              text-decoration: underline;
+              }
+              .a2{
+              color: #e74c3c;
+              }
+
+    .pal-3{
+    display: flex;
+    flex-direction: column;
+    }
+    .pal-4{
+    max-width: 400px;
+    position: relative;
+    margin-top:5px;
+    }
+    .pal-4 img{
+    width: 100%;
+    height: 330px;
+    margin: 2px  0px;
+   
+    }
+    /* ------------max-------------------- */
+    .cum{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+    .cum-1{
+    max-width: 516px;
+    position: relative;
+    }
+    .cum-1 img{
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+    }
+   .cum-2{
+    width: 408px;
+    background-color: gray;
+    height:380px;
+    margin:10px 10px;
+    }
+    .cum-3{
+    max-width: 400px;
+    }
+    .cum-3 img{
+    width: 100%;
+    height: 360px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 1px;
+    margin-top: 10px;
+    }
+    /* ----------line--------------------------- */
+    .star{
+    position: absolute;
+    bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.4;
+    color: white;
+    font-size: 20px;
+    }
+    .fat{
+      position: absolute;
+      bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      line-height: 1.4;
+      color: white;
+      font-size: 20px;
+    }
+    .comb{
+      position: absolute;
+      bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      line-height: 1.4;
+      color: white;
+      font-size: 20px;
+    }
+    /* --------bell-------------- */
+
+    .bell{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+    .vid{
+    width: 710px;
+    margin: 15px;
+    }
+    .vid video{
+    width: 100%;
+    height: auto;
+    }
+    .sid{
+    max-width: 500px;
+    }
+    .bell-1{
+    display: flex;
+    }
+    .bell-1 img{
+    max-width: 100px;
+    width: 100%;
+    height: 91px;
+    margin: 7px;
+    }
+    .p-p{
+    margin-top: 10px;
+    font-size: 20px;
+    }
+    .fot{
+    background-color: black;
+    }
+    footer{
+    color: whitesmoke;
+    text-align: center;
+    }
+/* ---------------sample-------------------------- */
+
+    .cube-1{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: spin 35s infinite linear;
+    margin: 40px;
+    justify-content: center;
+    display: flex;
+    
+    }
+    .ttt{
+      display: flex;
+      background-color: #34495e;
+      color: white;
+      justify-content: center;
+    }
+    .cube{
+    justify-content: center;
+    display: flex;
+    background-color: gainsboro;
+    flex-wrap: wrap;
+    height: 300px;
+    
+    }
+    .face-1{
+    position: absolute;
+    width:300px;
+    height:200px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #fff;
+    display: flex;
+    background-color: #c0392b;
+    } 
+    .front{transform: rotateY(0deg) translateZ(150px); background: linear-gradient(45deg, #3498db, #34495e);}
+    .back{transform: rotateY(180deg) translateZ(150px); background: linear-gradient(45deg, #e74c3c, #c0392b);}
+    .left{transform: rotateY(-90deg) translateZ(150px); background: linear-gradient(45deg, #27ae60, #229954);}
+    .right{transform: rotateY(90deg) translateZ(150px); background: linear-gradient(45deg, #f1c40f, #f39c12);}
+    .top{transform: rotateX(-90deg) translateZ(150px); background: linear-gradient(45deg, #9b59b6, #8e44ad);}
+    .bottom{transform: rotateX(90deg) translateZ(150px); background: linear-gradient(45deg, #e67e22, #d35400);}
+    
+    @keyframes spin {
+    100%{ transform:rotateX(0deg) rotateY(460deg);}
+    0%{ transform: rotateX(0deg) rotateY(0deg);}     
+    
+    }
+  
+  /* -----------------sample-------------------------------- */
+    @media (max-width:600px){
+     nav ul{
+    position: absolute;
+    top: 50px;
+    right:0;
+    left: 0;
+    flex-direction: column;
+    text-align: center;
+    background: red;
+    gap: 0;
+    overflow: hidden;
+     } 
+     nav ul li{
+     padding: 20px;
+     }
+     .menu-icon{
+     display: block;
+     }
+    }
+    @media screen and (max-width:600px){
+    .pal-1{
+    width: 100%;
+     
+     } 
+     .pal-1 img{
+     padding-right: 10px;
+     padding-left: 10px;
+     height: 300px;
+     }
+     .pal-pal{
+     max-width: 100%;
+     padding-right: 10px;
+     padding-left: 10px;
+     line-height: 1.3;
+     font-size: 17px;
+     }
+     .pal-4{
+     max-width: 100%;
+     margin: 3px;
+     }
+     .pal-4 img{
+      padding-right: 10px;
+      padding-left: 10px;
+      height: 300px;
+      }
+      .cum-1{
+      max-width: 100%;
+      
+      }
+      .cum-1 img{
+        padding-right: 10px;
+        padding-left: 10px;
+        height: 320px;
+        }
+        .cum-2{
+          width: 100%;
+          height: 400px;
+          }
+        .cum-3{
+        max-width: 100%;
+        }
+        .cum-3 img{
+          padding-right: 5px;
+          padding-left: 5px;
+          height: 380px;
+        }
+        .vid{
+        max-width: 100%;
+        height: auto;
+        margin: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+        background-color: ghostwhite;
+        }
+        .comb{
+        bottom: 0px;
+        } 
+        .viss-1{
+        
+        }
+        .viss-1 img{
+         
+          height: 220px;
+        }
+    }
+    
+     
+    
+    
